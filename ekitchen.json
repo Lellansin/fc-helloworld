@@ -1,0 +1,39 @@
+{
+  "appid": "fc_helloworld",
+  "author": "junjian.zheng@ele.me",
+  "notice": [
+    "junjian.zheng@ele.me"
+  ],
+  "authUser": [
+    "junjian.zheng@ele.me"
+  ],
+  "services": [
+    {
+      "serviceName": "fc_helloworld",
+      "funcs": [
+        {
+          "fuctionName": "helloworld",
+          "handler": "services/hello.handler"
+        }
+      ]
+    }
+  ],
+  "build": {
+    "commands": [
+      "npm install"
+    ]
+  },
+  "deploy": {
+    "env": {
+      "alpha": {
+        "NODE_ENV": "alpha"
+      },
+      "beta": {
+        "NODE_ENV": "beta"
+      },
+      "production": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
