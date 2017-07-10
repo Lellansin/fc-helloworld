@@ -12,7 +12,7 @@
       "serviceName": "fc_helloworld",
       "funcs": [
         {
-          "fuctionName": "helloworld",
+          "functionName": "helloworld",
           "handler": "services/hello.handler"
         }
       ]
