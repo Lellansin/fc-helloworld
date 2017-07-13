@@ -14,6 +14,10 @@
         {
           "functionName": "helloworld",
           "handler": "services/hello.handler"
+        },
+        {
+          "functionName": "file",
+          "handler": "services/file.handler"
         }
       ]
     }
