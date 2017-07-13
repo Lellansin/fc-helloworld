@@ -1,5 +1,5 @@
 {
-  "appid": "fc_helloworld",
+  "appid": "fe-lellansin-test",
   "author": "junjian.zheng@ele.me",
   "notice": [
     "junjian.zheng@ele.me"
@@ -9,7 +9,7 @@
   ],
   "services": [
     {
-      "serviceName": "fc_helloworld",
+      "serviceName": "fc_lellansin_test",
       "funcs": [
         {
           "functionName": "helloworld",
