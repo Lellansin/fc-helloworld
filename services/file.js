@@ -10,6 +10,6 @@ exports.handler = (event, ctx, callback) => {
     headers: {
       'Content-Type': 'application/javascript'
     },
-    body: fs.readFileSync(path.resolve(__dirname, './file.js'));
+    body: fs.readFileSync(path.resolve(__dirname, './file.js'))
   });
 };
